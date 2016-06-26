@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    padding: 0px 50px 0px 50px;
+    line-height: 22px;
+    font-family: 宋体;
+    font-size: 16px;
+}
+.container{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: beige;
+}
+.container .firstTitle .th,.thirdTitle .th{
+    margin-bottom: 10px;
+}
+.container .secondTitle,thirdTitle,fourTitle{
+    margin-top: 20px;
+}
+.container .row .th{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(49,132,155);
+    line-height: 40px;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    position: relative;
+}
+.container .row .td{
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.container .secondTitle .th{
+    margin-bottom: 20px;
+}
+.container .thirdTitle .th{
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.container .thirdTitle .td:nth-child(6){
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container .thirdTitle>p{
+    line-height: 28px;
+}
+.container .fourTitle .th{
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.container .fourTitle>p:last-child{
+    margin-bottom: 30px;
+}
+.container .png img{
+    position: absolute;
+    top: 71px;
+    right: 16%;
+    z-index: 1;
+    width: 85.6px;
+    height: 127.2px;
+    box-shadow: 0px 0px 10px 4px rgba(49,132,155,0.5);
+    border-radius: 8px;
+}
