@@ -6,7 +6,7 @@ p{
     padding: 0px 50px 0px 50px;
     line-height: 22px;
     font-family: 宋体;
-    font-size: 16px;
+    font-size: 18px;
 }
 .container{
     width: 1000px;
@@ -26,7 +26,7 @@ p{
     line-height: 40px;
     text-align: left;
     font-family: 宋体;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
     padding-left: 20px;
     position: relative;
@@ -36,7 +36,7 @@ p{
     line-height: 20px;
     text-align: left;
     font-family: 宋体;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     margin-top: 10px;
     padding-left: 50px;
@@ -48,12 +48,16 @@ p{
     margin-top: 10px;
     margin-bottom: 14px;
 }
-.container .thirdTitle .td:nth-child(6){
+.container .thirdTitle .font-weight{
     font-weight: bold;
     margin-bottom: 10px;
 }
 .container .thirdTitle>p{
     line-height: 28px;
+}
+.container .thirdTitle .two{
+    line-height: 1.4;
+    margin: 5px auto;
 }
 .container .fourTitle .th{
     margin-top: 6px;
